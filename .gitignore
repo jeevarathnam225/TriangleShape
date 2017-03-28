@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.Scanner;
+public class TriangleShape
+{
+	public static void main(String args[])
+	{
+		int i=0,j=0,n,k=1;
+		Scanner num = new Scanner(System.in);
+		System.out.println("enter rows");
+		n=num.nextInt();
+		for(i=1;i<=n;i++)
+		{
+			for(j=0;j<i;j++)
+				System.out.print(" "+k++);
+				System.out.println(" ");
+					
+		}
+	}
+}
